@@ -24,3 +24,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     echo "2141720063 MARIA FADILLA";
 });
+
+Route::get('/articles/{id}', function ($id) {
+    echo "Halaman Artikel dengan ID {$id}";
+});
